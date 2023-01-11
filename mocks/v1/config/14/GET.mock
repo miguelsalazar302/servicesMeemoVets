@@ -1,0 +1,43 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+Date: Wed, 03 Aug 2016 23: 33: 21 GMT
+Expires: Thu, 19 Nov 1981 08: 52: 00 GMT
+Keep-Alive: timeout=5, max=100
+Pragma: no-cache
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+Set-Cookie: ci_session=55c1b2d2b0348be157a63506fa7415745aae1007; expires=Thu, 04-Aug-2016 01: 38: 21 GMT; path=/; HttpOnly
+Transfer-Encoding: chunked
+X-Powered-By: PHP/5.4.45
+access-control-allow-headers: X-Requested-With, Content-Type, Origin, Authorizationjwt, Accept, Client-Security-Token, Accept-Encoding,
+access-control-allow-methods: GET, POST, PUT, PATCH, DELETE, OPTIONS
+access-control-allow-origin: *
+
+{
+    "status": true,
+    "data":
+    {
+        "name": "sqby",
+        "business_name": "sqby SA",
+        "reports_interval": "180",
+        "booking_interval": "30",
+        "here_app_id": "dhygfiksyfdgt43543535",
+        "here_app_code": "4358754986hjkhgf",
+        "one_signal_app_id": "595942c5-69a4-400a-a59c-14b0524c5233",
+        "one_signal_rest_api_key": "324587923yrejdfhsdkjfh",
+        "one_signal_google_project_number": "468771203238",
+        "google_maps_key": "AIzaSyAz1Pry0UqV-ADXglXJ8A5h_b0W2CH4DkU",
+        "min_version_android": "1",
+        "min_version_ios": "2",
+        "url_play_store": "http:\/\/www.playstore.com\/pepe",
+        "url_ios_store": "http:\/\/www.ios.com\/pepe",
+        "base":
+        {
+            "lat": "-34.63699000",
+            "lng": "-58.54175300"
+        }
+    },
+    "message": "Config inicial"
+}

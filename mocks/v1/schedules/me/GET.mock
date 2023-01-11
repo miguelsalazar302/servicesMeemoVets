@@ -1,0 +1,65 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+Date: Wed, 03 Aug 2016 23: 33: 21 GMT
+Expires: Thu, 19 Nov 1981 08: 52: 00 GMT
+Keep-Alive: timeout=5, max=100
+Pragma: no-cache
+Server: Apache/2.4.18 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+Set-Cookie: ci_session=55c1b2d2b0348be157a63506fa7415745aae1007; expires=Thu, 04-Aug-2016 01: 38: 21 GMT; path=/; HttpOnly
+Transfer-Encoding: chunked
+X-Powered-By: PHP/5.4.45
+access-control-allow-headers: X-Requested-With, Content-Type, Origin, Authorizationjwt, Accept, Client-Security-Token, Accept-Encoding,
+access-control-allow-methods: GET, POST, PUT, PATCH, DELETE, OPTIONS
+access-control-allow-origin: *
+
+{
+"status": true,
+"data": [
+{
+    "id": 1,
+    "type": "normal",
+    "enabled": false,
+    "price": 20.00,
+    "location": {
+        "center": {
+            "lat": 38.987987,
+            "lng": 36.8798797
+        },
+        "radius": 22602.5754987979
+    },
+    "agenda": [
+        {
+            "from": "",
+            "to": "",
+            "dayNumber": 1,
+            "enabled": true
+        }
+    ]
+},
+{
+    "id": 3,
+    "type": "urgency",
+    "enabled": true,
+    "price": 20.00,
+    "location": {
+        "center": {
+            "lat": 38.987987,
+            "lng": 36.8798797
+        },
+        "radius": 22602.5754987979
+    },
+    "agenda": [
+        {
+            "from": "",
+            "to": "",
+            "dayNumber": 1,
+            "enabled": true
+        }
+    ]
+}
+],
+"message": "Listado de Configuraciones"
+}
